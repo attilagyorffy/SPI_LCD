@@ -24,8 +24,8 @@
 // Use one of the following 4 methods for talking to the SPI/GPIO
 //#define USE_PIGPIO
 //#define USE_BCM2835
-//#define USE_WIRINGPI
-#define USE_GENERIC
+#define USE_WIRINGPI
+// #define USE_GENERIC
 
 // For generic SPI access (kernel drivers), select the board pinout (only one)
 //#define USE_NANOPI2
