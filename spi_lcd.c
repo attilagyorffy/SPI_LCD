@@ -660,8 +660,8 @@ int i, iCount;
 	{
 		s = ucOLEDInitList; // do the commands manually
 
-                iCurrentWidth = iWidth = 128;
-                iCurrentHeight = iHeight = 128;
+                iCurrentWidth = iWidth = 256;
+                iCurrentHeight = iHeight = 64;
 	}
     // Send the commands/parameters to initialize the LCD controller
 	else if (iLCDType == LCD_ILI9341)
